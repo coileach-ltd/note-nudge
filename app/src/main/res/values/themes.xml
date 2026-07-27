@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.BaseApp" parent="android:style/Theme.Material.NoActionBar">
+    <style name="Theme.NoteNudge" parent="android:style/Theme.Material.NoActionBar">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowBackground">#050505</item>
@@ -11,11 +11,11 @@
         <item name="android:windowLightNavigationBar">false</item>
     </style>
 
-    <style name="Theme.BaseApp.Splash" parent="Theme.SplashScreen">
+    <style name="Theme.NoteNudge.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#009688</item>
         <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
         <item name="windowSplashScreenIconBackgroundColor">#009688</item>
-        <item name="postSplashScreenTheme">@style/Theme.BaseApp</item>
+        <item name="postSplashScreenTheme">@style/Theme.NoteNudge</item>
     </style>
 
 </resources>

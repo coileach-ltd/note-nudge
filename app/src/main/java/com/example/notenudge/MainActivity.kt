@@ -1,4 +1,4 @@
-package com.example.baseapp
+package com.example.notenudge
 
 import android.graphics.Color as AndroidColor
 import android.os.Bundle
@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Box(contentAlignment = Alignment.Center) {
-                        Text(text = "Base App Started", style = MaterialTheme.typography.headlineLarge)
+                        Text(text = "NoteNudge Started", style = MaterialTheme.typography.headlineLarge)
                     }
                 }
             }

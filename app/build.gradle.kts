@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.baseapp"
+    namespace = "com.example.notenudge"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.baseapp"
+        applicationId = "com.example.notenudge"
         minSdk = 29
         targetSdk = 36
         versionCode = 1

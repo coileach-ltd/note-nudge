@@ -18,5 +18,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "YearSort"
+rootProject.name = "NoteNudge"
 include(":app")
